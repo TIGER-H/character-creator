@@ -1,4 +1,7 @@
 .buttonRow {
+  /* fix overflow caused by sr-only */
+  position: relative;
+
   white-space: nowrap;
   overflow-x: auto;
 
